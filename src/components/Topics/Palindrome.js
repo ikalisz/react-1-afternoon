@@ -28,7 +28,7 @@ class Palindrome extends Component {
             <div className="puzzleBox filterStringPB">
                 <h4>Palindrome</h4>
                 <input className="inputLine" onChange={(e) => {this.handleUpdateUserInput(e.target.value)}}/>
-                <button className="confirmationButton" onClick={() => {this.handleSolvePalindrome()}}>Solve</button>
+                <button className="confirmationButton" onClick={() => this.handleSolvePalindrome()}>Solve</button>
                 <span className="resultsBox">{this.state.palindrome}</span>
             </div>
         )
