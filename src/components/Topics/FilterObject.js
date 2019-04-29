@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 
+//To do: make it so user can input an object list and then filter through it, however if nothing is inputed default to the car list. with instructions on how to do it.
+
+
 class FilterObject extends Component {
     constructor() {
         super()
